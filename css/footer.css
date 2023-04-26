@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-family: var(--manrope-font-family);
+}
+
+.footer__copyright {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer__rectangles {
+    display: flex;
+    gap: 5px;
+}
+
+.footer__rectangle {
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+}
+
+@media (min-width: 768px) {
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+}
